@@ -1,0 +1,48 @@
+body{
+  background-color: #78b1eb;
+  font-family: arial;
+}
+a{
+  text-decoration: none;
+
+}
+nav{
+  background-color: white;
+  margin: 20px;
+  height: 40px;
+}
+
+nav li{
+  float: left;
+
+}
+nav li a{
+  border-right: 1px solid #78b1eb;
+  color: #78b1eb;
+  padding: 12px 10%;
+  display: block;
+}
+nav li a:hover{
+  background-color: #78b1eb;
+  color: white;
+  transition: 1.5s;
+}
+nav .burger a{
+  background-color:#46a1fe;
+  color:white;
+
+}
+nav .burger{
+  float: right;
+
+}
+nav .burger span{
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 3px;
+  display: block;
+}
+/*nav .burger a::before{
+cercul la burger
+}*/
