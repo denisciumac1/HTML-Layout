@@ -19,7 +19,7 @@ nav li{
 nav li a{
   border-right: 1px solid #78b1eb;
   color: #78b1eb;
-  padding: 12px 10%;
+  padding: 12px 2.857vw;
   display: block;
 }
 nav li a:hover{
@@ -43,6 +43,17 @@ nav .burger span{
   margin: 3px;
   display: block;
 }
-/*nav .burger a::before{
-cercul la burger
-}*/
+nav .burger a::before{
+content: "8";
+text-align: center;
+background-color: #46a1fe;
+padding:3px;
+width: 20px;
+height: 17px;
+border: 3px solid white;
+border-radius: 50%;
+position: absolute;
+right: 110px;
+top: 26px;
+line-height:normal;
+}
