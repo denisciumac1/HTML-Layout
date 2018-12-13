@@ -19,7 +19,7 @@ nav li{
 nav li a{
   border-right: 1px solid #78b1eb;
   color: #78b1eb;
-  padding: 12px 2.857vw;
+  padding: 12px 3.17vw;
   display: block;
 }
 nav li a:hover{
@@ -34,6 +34,7 @@ nav .burger a{
 }
 nav .burger{
   float: right;
+  display: none;
 
 }
 nav .burger span{
@@ -44,7 +45,7 @@ nav .burger span{
   display: block;
 }
 nav .burger a::before{
-content: "8";
+content: "5";
 text-align: center;
 background-color: #46a1fe;
 padding:3px;
@@ -53,7 +54,21 @@ height: 17px;
 border: 3px solid white;
 border-radius: 50%;
 position: absolute;
-right: 110px;
+right: 132px;
 top: 26px;
 line-height:normal;
+}
+
+
+/*Stiluri pentru mobil*/
+@media screen and (max-width:800px) {
+nav .burger{
+  display: block;
+}
+nav li:nth-child(9),
+nav li:nth-child(8),
+nav li:nth-child(7),
+nav li:nth-child(6){
+  display: none;
+}
 }
