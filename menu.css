@@ -19,7 +19,7 @@ nav li{
 nav li a{
   border-right: 1px solid #78b1eb;
   color: #78b1eb;
-  padding: 12px 3.17vw;
+  padding: 12px 3.282vw;
   display: block;
 }
 nav li a:hover{
@@ -45,7 +45,7 @@ nav .burger span{
   display: block;
 }
 nav .burger a::before{
-content: "5";
+content: "0";
 text-align: center;
 background-color: #46a1fe;
 padding:3px;
@@ -54,14 +54,52 @@ height: 17px;
 border: 3px solid white;
 border-radius: 50%;
 position: absolute;
-right: 132px;
+right: 110px;
 top: 26px;
 line-height:normal;
 }
 
-
 /*Stiluri pentru mobil*/
-@media screen and (max-width:800px) {
+@media screen and (max-width:1364px) {
+nav .burger{
+  display: block;
+}
+nav li:nth-child(9){
+  display: none;
+}
+nav .burger a::before{
+content: "1";
+}
+}
+
+@media screen and (max-width:1190px) {
+nav .burger{
+  display: block;
+}
+nav li:nth-child(9),
+nav li:nth-child(8){
+  display: none;
+}
+nav .burger a::before{
+content: "2";
+}
+}
+
+@media screen and (max-width:887px) {
+nav .burger{
+  display: block;
+}
+nav li:nth-child(9),
+nav li:nth-child(8),
+nav li:nth-child(7){
+  display: none;
+}
+nav .burger a::before{
+content: "3";
+}
+}
+
+@media screen and (max-width:700px) {
 nav .burger{
   display: block;
 }
@@ -70,5 +108,59 @@ nav li:nth-child(8),
 nav li:nth-child(7),
 nav li:nth-child(6){
   display: none;
+}
+nav .burger a::before{
+content: "4";
+}
+}
+
+@media screen and (max-width:540px) {
+nav .burger{
+  display: block;
+}
+nav li:nth-child(9),
+nav li:nth-child(8),
+nav li:nth-child(7),
+nav li:nth-child(6),
+nav li:nth-child(5){
+  display: none;
+}
+nav .burger a::before{
+content: "5";
+}
+}
+
+@media screen and (max-width:417px) {
+nav .burger{
+  display: block;
+}
+nav li:nth-child(9),
+nav li:nth-child(8),
+nav li:nth-child(7),
+nav li:nth-child(6),
+nav li:nth-child(5),
+nav li:nth-child(4){
+  display: none;
+}
+nav .burger a::before{
+content: "6";
+}
+}
+
+@media screen and (max-width:333px) {
+nav .burger{
+  display: block;
+}
+nav li:nth-child(9),
+nav li:nth-child(8),
+nav li:nth-child(7),
+nav li:nth-child(6),
+nav li:nth-child(5),
+nav li:nth-child(4),
+nav li:nth-child(3){
+  display: none;
+}
+nav .burger a::before{
+content: "7";
 }
 }
