@@ -14,6 +14,7 @@ nav{
 
 nav li{
   float: left;
+  list-style: none;
 
 }
 nav li a{
@@ -30,11 +31,11 @@ nav li a:hover{
 nav .burger a{
   background-color:#46a1fe;
   color:white;
-
 }
 nav .burger{
   float: right;
   display: none;
+
 
 }
 nav .burger span{
@@ -57,6 +58,7 @@ position: absolute;
 right: 110px;
 top: 26px;
 line-height:normal;
+
 }
 
 /*Stiluri pentru mobil*/
@@ -69,6 +71,7 @@ nav li:nth-child(9){
 }
 nav .burger a::before{
 content: "1";
+
 }
 }
 
@@ -82,6 +85,7 @@ nav li:nth-child(8){
 }
 nav .burger a::before{
 content: "2";
+
 }
 }
 
@@ -96,6 +100,7 @@ nav li:nth-child(7){
 }
 nav .burger a::before{
 content: "3";
+
 }
 }
 
@@ -111,6 +116,7 @@ nav li:nth-child(6){
 }
 nav .burger a::before{
 content: "4";
+
 }
 }
 
@@ -127,6 +133,7 @@ nav li:nth-child(5){
 }
 nav .burger a::before{
 content: "5";
+
 }
 }
 
@@ -144,6 +151,7 @@ nav li:nth-child(4){
 }
 nav .burger a::before{
 content: "6";
+
 }
 }
 
@@ -162,5 +170,6 @@ nav li:nth-child(3){
 }
 nav .burger a::before{
 content: "7";
+
 }
 }
