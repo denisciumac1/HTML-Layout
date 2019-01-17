@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style media="screen">
+    .container{
+      border: 3px solid black;
+      display: flex;
+      justify-content:space-evenly;
+      /*flex-direction: column-reverse;*/
+      flex-wrap: wrap;
+    }
+    .item:nth-child(odd){
+      background-color: blue;
+    }
+    .item:nth-child(even){
+      background-color: red;
+    }
+    .item{
+      width: 150px;
+    }
+    .item:nth-child(1){
+      padding: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+</body>
+</html>
