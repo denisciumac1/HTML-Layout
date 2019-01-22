@@ -1,0 +1,51 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  color: #444;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px){
+  .container{
+    display: block;
+    width: 90%;
+  }
+}
+h1{
+font-size: 50px;
+line-height: 0.9em;
+}
+.text-marker{
+border-bottom: 0.25em solid #3452ff;
+line-height: 0.45em;
+display: inline-block;
+}
+
+.border-blue{
+  border: 1px solid #3452ff;
+}
+
+.form-element input,
+.form-element select{
+  border: 1px solid #999;
+  padding: 10px;
+}
+form{
+  background-color: #f8f8f9;
+  padding: 30px;
+  border-radius: 5px;
+}
+.form-element input[type="checkbox"],
+.form-element input[type="checkbox"] + .fa-star{
+display: none;
+}
+.form-element input[type="checkbox"]:checked + .fa-star+.fa-star-o{
+display: none;
+}
+.form-element input[type="checkbox"]:checked + .fa-star{
+display: inline;
+}
